@@ -1,0 +1,153 @@
+body{
+	font-size: 20px; margin:0px;
+  background: #F0E68C;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0px;
+}
+
+ul{
+  list-style-type:none;background-color: none;
+}
+
+a{
+  text-decoration:none;
+}
+li a{
+	background: #4c4c4c;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: left;
+		text-decoration: none;
+		display: block;
+		font-size: 16px;
+		margin-right: 30%;
+		margin-top: 28%;
+		box-shadow: 2px 2px 10px #171717;
+}
+
+h2{
+  text-align: center;
+  font-family: Bradley Hand ITC;
+  text-shadow: 3px 3px 5px #808000;
+}
+
+header{
+	 color:black; font-size: 40px; margin:5px; text-align:center;
+}
+
+.bottom img{
+	display: block;
+	margin-top: 20px;
+	margin-left: 275px;
+	border-radius: 50%;
+}
+
+header h3{
+  text-shadow: 4px 4px 5px yellow;
+  font-family: Bradley Hand ITC;
+  font-weight: bold;
+}
+
+.picture {
+	display: flex;flex-direction: row;
+	margin: 5px
+  border-radius:50%;
+	float:left;
+	justify-content: space-around;
+
+}
+
+
+.picture{
+padding: 1%;
+}
+
+
+
+
+.picture{
+padding: 1%;
+}
+
+
+section{
+  border:5%;
+  display: flex;flex-direction: row;
+  margin: 0; padding: 1%; justify-content: space-around;
+  background: transparent;
+}
+.box{
+	padding: 2%;
+	color: black;
+	width: 75%;
+	border: 2px solid black;
+	padding-top: 15px;
+	margin: 11%;
+}
+
+
+
+.main{
+  width:60%;
+  background:#ffdae0; margin-right: 2%;
+margin-top: 0.01%;
+}
+
+.main p{
+  text-align: left; margin-left: 5%;
+}
+
+
+
+.about{
+  text-align: left;
+}
+
+.cv{
+  text-align: left;
+}
+
+.contact{
+  text-align: left;
+}
+
+.menubar ul{
+	display: flex; flex-direction: row;
+	margin-left: 20%;
+
+
+}
+
+.menubar ul li{
+	flex-grow: 1;
+	font-size: 25px;
+
+
+
+}
+
+
+.menubar ul li a {
+	color: white;
+	font-weight: bold;
+}
+.menubar ul li a:hover{
+	background:black;
+}
+
+
+
+
+
+footer{
+  color:black; text-align: right;
+
+}
+
+.Cookies p{
+text-align: right;
+margin-right: 8%;
+}
