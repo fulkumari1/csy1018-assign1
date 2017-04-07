@@ -121,7 +121,7 @@ margin-top: 0.01%;
 	font-weight: bold;
 }
 .menubar ul li a:hover{
-	background:black;
+	background:#999900;
 }
 
 
@@ -129,13 +129,21 @@ margin-top: 0.01%;
 
 
 footer{
-  color:white; text-align: right;
+  color:white; text-align: right; display: flex;flex-direction: row;
 
 }
 
-.Cookies p{
+.media{
+	width: 50%; text-align: left; padding-left: 10%;
+}
+
+.Copyright{
+	width: 50%;
+}
+
+.Copyright p{
 text-align: right;
-margin-right: 8%;
+margin-right: 18%;
 }
 
 @media all and (max-width: 600px){
@@ -170,4 +178,24 @@ body{
 	footer{
 		width: 98%;
 	}
+}
+@media all and (max-width: 600px)
+{footer{
+	width: 98%;
+	flex-direction: column;
+}
+
+.media{
+	width: 90%;
+}
+
+.Copyright{
+	width: 100%;
+}
+
+.Copyright{
+	margin-right: 0px;
+	text-align: center;
+}
+
 }

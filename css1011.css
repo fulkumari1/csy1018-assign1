@@ -102,12 +102,50 @@ section{
     margin-left: 30%;
     margin-top: 5%;
     box-shadow: 2px 2px 10px #171717;
-
-
 }
 
 .menu:hover{
-	background: black;
+	background: #999900;
+}
+
+.menu1{
+
+  background: #4c4c4c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 30%;
+    margin-top: 5%;
+    box-shadow: 2px 2px 10px #171717;
+}
+
+.menu1:hover{
+	background: #999900;
+}
+
+.menu2{
+
+  background: #4c4c4c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 30%;
+    margin-top: 5%;
+    box-shadow: 2px 2px 10px #171717;
+}
+
+.menu2:hover{
+	background: #999900;
 }
 
 .about{
@@ -125,12 +163,19 @@ section{
 
 
 footer{
-  color:white; text-align: right;
+  color:white; display: flex;flex-direction: row;
+}
+.media{
+	width: 50%; text-align: left; padding-left: 10%;
 }
 
-.Cookies p{
+.Copyright{
+	width: 50%;
+}
+
+.Copyright p{
 text-align: right;
-margin-right:8%;
+margin-right: 18%;
 }
 
 @media all and (max-width: 600px){
@@ -175,5 +220,20 @@ body{
 
 	footer{
 		width: 98%;
+		flex-direction: column;
 	}
+
+	.media{
+		width: 90%;
+	}
+
+	.Copyright{
+		width: 100%;
+	}
+
+	.Copyright{
+		margin-right: 0px;
+		text-align: center;
+	}
+
 }

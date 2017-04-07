@@ -79,13 +79,9 @@ section{
   margin: 0; padding: 1%; justify-content: space-around;
   background: transparent;
 }
+
 .box{
-	padding: 2%;
-	color: black;
-	width: 75%;
-	border: 2px solid black;
-	padding-top: 15px;
-	margin: 11%;
+	padding: 10%;
 }
 
 
@@ -135,19 +131,52 @@ margin-top: 0.01%;
 	font-weight: bold;
 }
 .menubar ul li a:hover{
-	background:black;
+	background:#999900;
 }
 
 
+input[type=text]{
+	height: 25px;
+}
 
+input[type=email]{
+	height: 25px;
+}
 
 
 footer{
-  color:black; text-align: right;
+  color:black; text-align: right; display: flex;flex-direction: row;
 
 }
+.media{
+	width: 50%; text-align: left; padding-left: 10%;
+}
 
-.Cookies p{
+.Copyright{
+	width: 50%;
+}
+
+.Copyright p{
 text-align: right;
-margin-right: 8%;
+margin-right: 18%;
+}
+@media all and (max-width: 600px){
+footer{
+	width: 98%;
+	flex-direction: column;
+}
+
+.media{
+	width: 90%;
+}
+
+.Copyright{
+	width: 100%;
+}
+
+.Copyright{
+	margin-right: 0px;
+	text-align: center;
+}
+
 }
