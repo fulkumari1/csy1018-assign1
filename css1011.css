@@ -30,8 +30,7 @@ header h3{
 .picture img{
   border-radius:50%;
 	margin-top: 3%;
-	height: 2s;
-	background: 2s;
+	height: 2%;
 	transition: transform 2s;
 }
 
@@ -47,7 +46,6 @@ padding: 1%;
 
 
 section{
-  border:5%;
   display: flex;flex-direction: row;
   margin: 0; padding: 1%; justify-content: space-around;
   background: transparent;

@@ -25,8 +25,7 @@ header{
 .image img{
 width:13%;
 margin-top: 8%;
-height:1s;
-background: 1s;
+height:1%;
 transition: transform 2s;
 }
 
@@ -42,7 +41,6 @@ header h3{
 
 
 section{
-  border:5%;
   display: flex;flex-direction: row;
   margin: 0; padding: 1%; justify-content: space-around;
   background: transparent;
@@ -135,7 +133,6 @@ li a{
 
 footer{
   color: white; text-align: right; display: flex;flex-direction: row;
-	di
 }
 
 .media{
@@ -200,7 +197,6 @@ body{
 	}
 }
 @media all and (max-width: 600px){
-
 footer{
 	width: 98%;
 	flex-direction: column;
@@ -219,5 +215,4 @@ footer{
 	margin-right: 0px;
 	text-align: center;
 }
-
 }

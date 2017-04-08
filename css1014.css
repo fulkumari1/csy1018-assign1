@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 ul{
-  list-style-type:none;background-color: none;
+  list-style-type:none;
 }
 
 a{
@@ -53,7 +53,7 @@ header h3{
 
 .picture {
 	display: flex;flex-direction: row;
-	margin: 5px
+	margin: 5px;
   border-radius:50%;
 	float:left;
 	justify-content: space-around;
@@ -74,7 +74,6 @@ padding: 1%;
 
 
 section{
-  border:5%;
   display: flex;flex-direction: row;
   margin: 0; padding: 1%; justify-content: space-around;
   background: transparent;
@@ -112,7 +111,7 @@ margin-top: 0.01%;
 
 .menubar ul{
 	display: flex; flex-direction: row;
-	margin-left: 20%;
+	margin-left: 7%;
 
 
 }
