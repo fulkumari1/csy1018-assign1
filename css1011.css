@@ -1,5 +1,5 @@
 body{
-	font-size: 20px; margin:0px; background-image: url("11.jpg");
+	font-size: 20px; margin:0px; background-image: url("images/w.jpg");
 	background-size: cover;
   background-repeat: no-repeat;
   }
@@ -225,6 +225,7 @@ body{
 
 	.media{
 		width: 90%;
+		text-align: center;
 	}
 
 	.Copyright{

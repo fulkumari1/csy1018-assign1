@@ -1,5 +1,5 @@
 body{
-	font-size: 20px; margin:0px; background-image: url("w.jpg");
+	font-size: 20px; margin:0px; background-image: url("images/w.jpg");
 	background-size: cover;
   background-repeat: no-repeat;
 }
@@ -158,7 +158,7 @@ body{
 }
 
 	header{
-		width: 98%;
+		width: 100%;
 	}
 
 	header h3{
@@ -169,22 +169,38 @@ body{
 		width: 98%;
 		display: flex;flex-direction: column;
 	}
-
-
+.image img{
+	width: 20%;
+}
+.left{
+	width: 100%;
+}
+.right{
+	width: 100%;
+}
 .main{
 	width: 100%;
 	margin-bottom: 3%;
-
+	margin-left: 0px;
+	margin-right: 0px;
 }
-
-
-
+.menubar{
+	margin-top: 0px;
+	width: 100%;
+}
+.menubar ul{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 0px;
+}
 
 	footer{
 		width: 98%;
 	}
 }
 @media all and (max-width: 600px){
+
 footer{
 	width: 98%;
 	flex-direction: column;
@@ -192,6 +208,7 @@ footer{
 
 .media{
 	width: 90%;
+	text-align: center;
 }
 
 .Copyright{
