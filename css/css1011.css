@@ -1,5 +1,5 @@
 body{
-	font-size: 20px; margin:0px; background-image: url("images/w.jpg");
+	font-size: 20px; margin:0px; background-image: url(../images/w.jpg);
 	background-size: cover;
   background-repeat: no-repeat;
   }
